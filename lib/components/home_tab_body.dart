@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:solana/solana.dart' show Wallet;
+import 'package:gemachain/gemachain.dart' show Wallet;
 import 'package:gemachain_wallet/dialogs/send_transaction.dart';
 import 'package:gemachain_wallet/dialogs/transaction_info.dart';
 import 'package:gemachain_wallet/state/store.dart';

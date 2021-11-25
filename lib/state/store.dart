@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:solana/solana.dart'
+import 'package:gemachain/gemachain.dart'
     show
         Ed25519HDKeyPair,
         ParsedInstruction,
@@ -13,7 +13,7 @@ import 'package:redux_persist_flutter/redux_persist_flutter.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as Http;
 import 'package:bip39/bip39.dart' as bip39;
-import 'package:solana/src/rpc_client/rpc_client.dart';
+import 'package:gemachain/src/rpc_client/rpc_client.dart';
 import 'package:worker_manager/worker_manager.dart';
 
 abstract class Account {
@@ -373,7 +373,7 @@ class StateWrapper extends Store<AppState> {
    */
   Future<void> createWatcher(String address) async {
     ClientAccount account = new ClientAccount(address, 0,
-        state.generateAccountName(), "https://99.20.20.233:8899");
+        state.generateAccountName(), "http://99.20.20.233:8899");
 
     // Load account transactions
     await account.loadTransactions();

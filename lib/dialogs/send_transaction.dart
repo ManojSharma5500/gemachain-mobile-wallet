@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:solana/solana.dart';
+import 'package:gemachain/gemachain.dart';
 import 'package:gemachain_wallet/dialogs/transaction_errored.dart';
 import 'package:gemachain_wallet/dialogs/transaction_sent.dart';
 import 'package:gemachain_wallet/state/store.dart';

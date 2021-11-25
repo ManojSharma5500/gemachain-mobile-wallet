@@ -42,7 +42,7 @@ class App extends StatelessWidget {
       child: MaterialApp(
         title: 'Gemachain wallet',
         theme: ThemeData(
-          primarySwatch: Colors.amber,
+          primarySwatch: Colors.indigo,
         ),
         initialRoute: this.initialRoute,
         routes: {

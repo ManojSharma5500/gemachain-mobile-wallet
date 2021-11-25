@@ -9,9 +9,9 @@ const options = [
 ];
 
 const urlOptions = {
-  'Mainnet-beta (default)': 'https://api.mainnet-beta.solana.com',
-  'Devnet': 'https://api.devnet.solana.com',
-  'Testnet': 'https://api.testnet.solana.com',
+  'Mainnet-beta (default)': 'http://99.20.20.233:8899',
+  'Devnet': 'http://99.20.20.233:8899',
+  'Testnet': 'http://99.20.20.233:8899',
   'Custom': '',
 };
 

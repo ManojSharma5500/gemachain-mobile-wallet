@@ -149,6 +149,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.14.3"
+  gemachain:
+    dependency: "direct main"
+    description:
+      path: "packages/gemachain"
+      ref: HEAD
+      resolved-ref: "2cbdf0ef1d4f1643dbae9b91040d43ee4ae35be0"
+      url: "git://github.com/ManojSharma5500/cryptoplease-dart.git"
+    source: git
+    version: "0.13.3+1"
   google_fonts:
     dependency: "direct main"
     description:
@@ -385,15 +394,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  solana:
-    dependency: "direct main"
-    description:
-      path: "packages/solana"
-      ref: HEAD
-      resolved-ref: "7a9a8bf687defe86fa3391db8f62f831a7d4fccd"
-      url: "git://github.com/ManojSharma5500/cryptoplease-dart.git"
-    source: git
-    version: "0.13.3+1"
   source_span:
     dependency: transitive
     description:
@@ -512,7 +512,7 @@ packages:
       name: win32
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.3.0"
+    version: "2.3.1"
   worker_manager:
     dependency: "direct main"
     description:
